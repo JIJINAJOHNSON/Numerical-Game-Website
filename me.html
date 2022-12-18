@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="me.css">
+    <script defer src="js/word.js"></script>
+    <script defer src="js/new.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Guess the number</h1>
+        <div class="content">
+            <input type="text" class="typing-input" maxlength="1">
+            <div class="inputs">
+                <!---
+                <input type="text" disabled>
+                <input type="text" disabled>
+                <input type="text" disabled>
+                <input type="text" disabled>
+                <input type="text" disabled>
+                --->
+            </div>
+        
+           <div class="details">
+            <p class="hint">Hint: <span></span></p>    <!---Hint will be shown here-->
+            <p class="guess-left">Remaining Guesses: <span></span></p>
+            <p class="wrong-left">Wrong letters: <span></span></p> <!--1,2,3,4-->
+           </div>
+           <button class="reset-btn">Reset Game</button>
+        </div>
+    </div>
+</body>
+</html>
